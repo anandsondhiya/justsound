@@ -15,7 +15,7 @@
   height: 100%;
 }
 #container #score {
-  position: absolute;
+  position: relative;
   top: 20px;
   width: 100%;
   text-align: center;
