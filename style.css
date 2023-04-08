@@ -106,3 +106,17 @@
 #container.ended .game-over p {
   transition-delay: 0.3s;
 }
+
+.videoContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-item {
+
+width: 634px;
+height: 357px;
+
+}
