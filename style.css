@@ -9,6 +9,10 @@
 } */
 
 
+#boxx {
+  
+
+}
 
 #container {
   width: 100%;
@@ -42,7 +46,7 @@
   align-items: center;
   justify-content: center;
 }
-#container .game-over * {
+#container .game-over  {
   transition: opacity 0.5s ease, transform 0.5s ease;
   opacity: 0;
   transform: translatey(-50px);
@@ -87,6 +91,7 @@
   opacity: 0 !important;
 }
 #container.playing #score, #container.resetting #score {
+  
   transform: translatey(0px) scale(1);
 }
 #container.playing #instructions {
@@ -97,9 +102,9 @@
   transform: translatey(0);
 }
 #container.ended #score {
-  transform: translatey(6vh) scale(1.5);
+  transform: translatey(10vh) scale(1.5);
 }
-#container.ended .game-over * {
+#container.ended .game-over  {
   opacity: 1;
   transform: translatey(0);
 }
